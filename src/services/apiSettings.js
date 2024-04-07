@@ -1,4 +1,3 @@
-//  SP PW => XV7AtUaF23CdGxDK
 import supabase from "./supabase";
 
 export async function getSettings() {
@@ -26,5 +25,3 @@ export async function updateSetting(newSetting) {
   }
   return data;
 }
-
-
